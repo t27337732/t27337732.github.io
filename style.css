@@ -36,6 +36,7 @@ main {
 section.left,
 section.right {
   display: flex;
+  flex-wrap: wrap;
   padding: 1rem;
 }
 
