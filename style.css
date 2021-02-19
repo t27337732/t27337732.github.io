@@ -36,7 +36,6 @@ main {
 
 section.left,
 section.right {
-  display: flex;
   padding: 1rem;
 }
 
@@ -46,6 +45,7 @@ section.right h4 {
 }
 
 section.right {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
