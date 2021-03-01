@@ -1,93 +1,101 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ying-han 的網頁</title>
-    <meta name="description" content="此網站自我介紹...話說是不是全英文比較好">
-<!--     <link rel="stylesheet" href="./twicon/twicon.css"> -->
+    <title>夏威夷旅遊租借服務 | 夏威夷最方便的旅遊出租服務網站</title>
+    <meta name="description" content="我們提供夏威夷旅遊租借服務，例如:衝浪板 車子 帳篷等等。">
+    <meta name="robots" content="index, follow">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- google font setting -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Year', 'HP', 'MP'],
-          ['2004',  1000,      400],
-          ['2005',  1170,      460],
-          ['2006',  660,       1120],
-          ['2007',  1030,      540]
-        ]);
-
-        var options = {
-          title: '年齡與學習力螺旋曲線之我只是想放看看圖表',
-          curveType: 'function',
-          legend: { position: 'bottom' }
-        };
-
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-
-        chart.draw(data, options);
-      }
-    </script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <!--標題-->
+    <!-- header -->
     <header>
-        <h1><i class="twicon-main-island"></i>Ying-han Personal Webpage</h1>
-        <h3>主要測試看看把東西丟在Github的效果如何</h3>
+       <div class="logo">
+           <img src="./Icons/black logo.svg" alt="Logo">
+           <h1>夏威夷旅遊租借服務</h1>
+       </div>
+
+       <nav>
+           <ul>
+               <li><a href="#">首頁</a></li>
+               <li><a href="">關於我們</a></li>
+               <li><a href="">會員登入</a></li>
+               <li><a href="">聯絡我們</a></li>
+           </ul>
+       </nav>
     </header>
-    <!--導覽-->
-    <nav>
-        <ul>
-            <li>
-                <a class="active" href="#"><i class="twicon-main-island"></i> 首頁</a>
-            </li>
-            <li>
-                <a href="./second.html"><i class="twicon-lovers-brg"></i>  還沒想到一</a>
-            </li>
-            <li>
-                <a href="./third.html"><i class="twicon-nt-mus"></i>  還沒想到二</a>
-            </li>
-            <li>
-                <a href="./fourth.html"><i class="twicon-taipei101"></i>  還沒想到三</a>
-            </li>
-            <li>
-                <a href="./fifth.html"><i class="twicon-l-youbike"></i>  還沒想到先放四格</a>
-            </li>
-        </ul>
-    </nav>
-    <!--主要內容-->
+  
     <main>
-        <section class="left">
-            <p>《鬼滅之刃》（日語：鬼滅の刃），簡稱《鬼滅》，是日本漫畫家吾峠呼世晴所創作的奇幻漫畫作品，描述主角炭治郎為了尋求讓被變成鬼的妹妹復原的方法，踏上斬鬼之旅的和風刀劍奇譚[1]。於2016年2月15日至2020年5月18日在《週刊少年Jump》連載[2]，全205話。漫畫改編電視動畫第一季「竈門炭治郎 立志篇」於2019年4月至9月播放，並於2020年10月16日上映續集電影《鬼滅之刃劇場版 無限列車篇》[3]。動畫第二季「鬼滅之刃 遊郭篇」預定於2021年播放[4]。
-            </p>
-            <p>(以上COPY wiki)
-            </p>
-            <br>
-            <div id="curve_chart" style="width: 360px; height: 220px"></div>
+     <!-- image part of the first page -->
+      <section class="backImage">
+         <div class="filter"></div>
+         <h3>準備好享受夏威夷風情了嗎?<br/>
+             現在開始準備
+         </h3>
+         <button class="start">現在開始</button>
+      </section>
+
+     <!-- second page -->
+      <section class="second">
+        <h2>透過給予最好的品質以及服務，我們幫助你獲得最好的<br/>
+            <span style=" color: #49AEA9;">夏威夷旅遊經驗</span> 
+        
+        </h2>
+
+        <section class="cards">
+            <div class="card">
+                <img src="./Pictures/braden-jarvis-prSogOoFmkw-unsplash.jpg" alt="picture">
+                <h4>快速運送</h4>
+                <p>我們承諾在一個工作天內，送達您所訂購的物品，
+                    夏威夷群島境內都適用，您放心訂購，我們專業送達
+                </p>
+                <a href="#">運送地點</a>
+            </div>
+            <div class="card">
+                <img src="./Pictures/sean-o-KMn4VEeEPR8-unsplash.jpg" alt="picture2">
+                <h4>付款方便</h4>
+                <p>信用卡、現金卡、現金、銀行轉帳，以及其他熱門付款方式，都可以使用
+                </p>
+                <a href="#">了解更多</a>
+            </div>
+            <div class="card">
+                <img src="./Pictures/tatonomusic-FFCgotROOTY-unsplash.jpg" alt="picture">
+                <h4>種類多樣</h4>
+                <p>超過3000樣商品都可以租借，商品均通過品質篩選，保證您的商品絕對滿意
+                </p>
+                <a href="#">線上搜尋</a>
+            </div>
         </section>
-        <section class="right">
-            <h4>小知識:<br>你知道台灣在哪裡嗎?</h4>
-            <br>
-            <p>台灣是太平洋上的一個小島。 它毗鄰中國，在島上的原住民被認為是太平洋群島南島語族語系人民的起源。
-                台灣的陸地面積為13972公里，島上約有2380萬人居住，最主要通用語言為中文、閩南語、客家話。 
-            </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7497908.048401321!2d115.58534526697217!3d23.42119118359337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ed5cb2b61c3a5%3A0xcf20ddb042be7fa0!2z6Ie654Gj!5e0!3m2!1szh-TW!2stw!4v1613552602290!5m2!1szh-TW!2stw" 
-            width="350" 
-            height="200" 
-            frameborder="0" 
-            style="border:0;" 
-            allowfullscreen="" 
-            aria-hidden="false" 
-            tabindex="0"></iframe>
-        </section>
+      </section>
+
     </main>
+
+    <footer>
+        <div class="logo">
+            <img src="./Icons/black logo.svg" alt="Logo">
+            <h1>夏威夷旅遊租借服務</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="links">
+            <a href="#"><img src="./Icons/facebook.svg" alt="fb"></a>
+            <a href="#"><img src="./Icons/instagram.svg" alt="ig"></a>
+            <a href="#"><img src="./Icons/twitter.svg" alt="twritte"></a>
+            <a href="#"><img src="./Icons/youtube.svg" alt="youtube"></a>
+        </section>
+    </footer>
+
 </body>
 </html>
