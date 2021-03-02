@@ -29,6 +29,12 @@ header {
   top: 0;
   z-index: 5;
   background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
 }
 
 header div.logo {
