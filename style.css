@@ -255,6 +255,25 @@ footer section.links a img {
   width: 5vw;
   height: 5vw;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8be0dc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #097770;
+}
 
 @media screen and (max-width: 700px) {
   main section.second section.cards div.card img {
