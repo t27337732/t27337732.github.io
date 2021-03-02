@@ -198,6 +198,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #e7d6d6;
 }
 
 footer div.logo {
@@ -215,7 +216,7 @@ footer div.logo img {
 }
 
 footer nav {
-  width: 30%;
+  width: 35%;
 }
 
 footer nav ul {
@@ -229,9 +230,14 @@ footer nav ul {
 }
 
 footer nav ul li a {
+  margin: 0rem 1rem;
   color: black;
   text-decoration: none;
   font-size: 1.35rem;
+}
+
+footer section.links a {
+  margin: 0rem 1rem;
 }
 
 footer section.links a img {
