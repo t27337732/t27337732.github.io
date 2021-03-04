@@ -291,4 +291,22 @@ footer section.links a img {
     height: 15vw;
   }
 }
+
+
+@media screen and (max-width: 305px) {
+  header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+
 /*# sourceMappingURL=style.css.map */
