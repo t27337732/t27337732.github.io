@@ -179,6 +179,11 @@ main section.second section.cards div.card img {
   height: 15vw;
   border-radius: 50%;
 }
+main section.second section.cards div.card img:active {
+  border-radius: 0%;
+  width: 100%;
+  height: 100%;
+}
 
 main section.second section.cards div.card img h4 {
   margin: 1rem 0rem;
